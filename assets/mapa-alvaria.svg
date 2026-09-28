@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 760" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa esquemático de Alvaria</title>
+  <desc id="desc">O norte montanhoso está ao alto, as planícies ocupam o centro e o leste, e os planaltos ficam ao sul. Dois rios atravessam as áreas agrícolas. Os pontos mostram locais indicativos para obras de água, segurança, energia, emprego e infraestrutura urbana.</desc>
+  <defs>
+    <clipPath id="country">
+      <path d="M297 37 350 48 387 70 431 76 467 102 510 109 527 139 571 155 587 187 630 206 616 246 662 274 646 313 680 345 654 388 618 409 628 449 592 470 582 516 551 540 534 583 493 599 465 642 419 632 391 670 351 650 319 684 285 655 249 647 227 609 188 594 171 561 134 543 145 501 119 467 143 429 118 389 142 354 121 319 146 287 133 249 165 219 150 187 183 159 190 126 226 111 247 77 281 69Z"/>
+    </clipPath>
+    <pattern id="dots" width="15" height="15" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#153e3d" opacity=".13"/>
+    </pattern>
+  </defs>
+  <rect width="820" height="760" fill="#f0f0e9"/>
+  <g clip-path="url(#country)">
+    <rect x="100" y="20" width="610" height="180" fill="#dfe4d7"/>
+    <rect x="100" y="200" width="610" height="260" fill="#e8eadb"/>
+    <rect x="100" y="460" width="610" height="250" fill="#d8e0d3"/>
+    <rect x="100" y="20" width="610" height="700" fill="url(#dots)"/>
+    <path d="M176 180 230 150 264 167 302 128 341 153 373 119 407 144 455 116 501 153 548 142 592 177 660 215" fill="none" stroke="#87968a" stroke-width="2" opacity=".75"/>
+    <path d="M146 208 199 183 235 204 278 176 319 196 364 164 407 187 455 155 510 189 552 174 613 211" fill="none" stroke="#a5ad9d" stroke-width="1.4" opacity=".65"/>
+    <path d="M231 134 C255 188 305 213 326 273 C350 337 333 400 387 463 C420 503 454 539 478 605" fill="none" stroke="#327f94" stroke-width="12" stroke-linecap="round" opacity=".88"/>
+    <path d="M505 161 C476 218 500 264 474 323 C451 377 492 420 518 463 C541 503 533 554 571 590" fill="none" stroke="#5b9cab" stroke-width="9" stroke-linecap="round" opacity=".88"/>
+    <path d="M326 273 C383 281 418 302 474 323" fill="none" stroke="#75abb2" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+    <g fill="#526b62" font-family="system-ui, sans-serif" font-size="13" letter-spacing="1.3">
+      <text x="299" y="111">NORTE MONTANHOSO</text>
+      <text x="231" y="337">PLANÍCIES CENTRAIS</text>
+      <text x="482" y="358">PLANÍCIES DO LESTE</text>
+      <text x="318" y="584">PLANALTOS DO SUL</text>
+    </g>
+    <g fill="#327f94" font-family="system-ui, sans-serif" font-size="10" font-style="italic">
+      <text x="337" y="396" transform="rotate(54 337 396)">Rio principal 1</text>
+      <text x="495" y="401" transform="rotate(66 495 401)">Rio principal 2</text>
+    </g>
+    <!-- Northern seismic-resilience works -->
+    <g fill="#48566f" stroke="#f0f0e9" stroke-width="3">
+      <path d="M390 156 401 136 412 156Z"/><path d="M491 153 502 133 513 153Z"/><path d="M559 193 570 173 581 193Z"/>
+    </g>
+    <!-- Water storage and basin management -->
+    <g fill="#327f94" stroke="#f0f0e9" stroke-width="5">
+      <circle cx="321" cy="300" r="11"/><circle cx="387" cy="368" r="11"/><circle cx="488" cy="310" r="11"/>
+    </g>
+    <!-- Solar installations -->
+    <g fill="#d8a349" stroke="#f0f0e9" stroke-width="4">
+      <path d="M420 451 424 462 436 462 427 469 430 481 420 474 410 481 413 469 404 462 416 462Z"/>
+      <path d="M520 455 524 466 536 466 527 473 530 485 520 478 510 485 513 473 504 466 516 466Z"/>
+    </g>
+    <!-- Textile and agroindustrial hubs -->
+    <g fill="#607967" stroke="#f0f0e9" stroke-width="4">
+      <rect x="260" y="423" width="17" height="17" rx="2"/><rect x="329" y="447" width="17" height="17" rx="2"/><rect x="385" y="428" width="17" height="17" rx="2"/>
+    </g>
+    <!-- Urban infrastructure -->
+    <g fill="#bc7048" stroke="#f0f0e9" stroke-width="4">
+      <circle cx="465" cy="391" r="10"/><circle cx="548" cy="420" r="10"/><circle cx="365" cy="492" r="10"/>
+    </g>
+    <circle cx="444" cy="350" r="7" fill="#153e3d" stroke="#fffefa" stroke-width="4"/>
+    <text x="453" y="347" fill="#153e3d" font-family="system-ui, sans-serif" font-size="11">Capital</text>
+  </g>
+  <path d="M297 37 350 48 387 70 431 76 467 102 510 109 527 139 571 155 587 187 630 206 616 246 662 274 646 313 680 345 654 388 618 409 628 449 592 470 582 516 551 540 534 583 493 599 465 642 419 632 391 670 351 650 319 684 285 655 249 647 227 609 188 594 171 561 134 543 145 501 119 467 143 429 118 389 142 354 121 319 146 287 133 249 165 219 150 187 183 159 190 126 226 111 247 77 281 69Z" fill="none" stroke="#254c48" stroke-width="5" stroke-linejoin="round"/>
+  <g transform="translate(86 629)" font-family="system-ui, sans-serif" fill="#536462">
+    <path d="M0 18 9 0 18 18Z" fill="#536462"/><text x="5" y="14" fill="#fffefa" font-size="10">N</text>
+    <path d="M30 15h47" stroke="#536462" stroke-width="2"/><path d="M30 10v10M77 10v10" stroke="#536462" stroke-width="2"/>
+    <text x="88" y="19" font-size="10">Esquema territorial</text>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-labelledby="title desc">
+  <title id="title">Bandeira proposta para Alvaria</title>
+  <desc id="desc">Três faixas horizontais em verde-azulado, dourado e marfim. No centro há um círculo com engrenagem, árvore e ampulheta, símbolos do PPLA.</desc>
+  <rect width="720" height="150" fill="#153e3d"/>
+  <rect y="150" width="720" height="150" fill="#c7903f"/>
+  <rect y="300" width="720" height="150" fill="#ebe8d9"/>
+  <circle cx="360" cy="225" r="105" fill="#f4f3ee" stroke="#153e3d" stroke-width="7"/>
+  <circle cx="360" cy="225" r="85" fill="none" stroke="#c7903f" stroke-width="6" stroke-dasharray="6 7"/>
+  <path d="M360 171v84M360 198l-31-22M360 202l31-26M360 185l-16-19M360 185l16-19" fill="none" stroke="#153e3d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M330 180c-6-13 7-24 22-22M390 180c6-13-7-24-22-22M335 204c-17-4-18-20-8-29M385 204c17-4 18-20 8-29" fill="none" stroke="#627966" stroke-width="7" stroke-linecap="round"/>
+  <path d="M338 256h44M342 285h36M347 258c0 13 26 13 26 27" fill="none" stroke="#c7903f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M360 255v27" stroke="#153e3d" stroke-width="5"/>
+</svg>
