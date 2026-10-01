@@ -27,7 +27,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .skip-link:focus { top: 12px; }
 .site-header { height: 76px; padding: 0 var(--gutter); display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; z-index: 5; }
 .wordmark { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; font-size: 12px; line-height: 1.2; letter-spacing: .14em; font-weight: 700; }
-.wordmark img { width: 38px; height: 38px; }
+.wordmark img { width: 46px; height: 40px; object-fit: contain; flex: 0 0 auto; }
 .wordmark-year { display: block; margin-top: 4px; color: var(--ink-soft); font-size: 9px; letter-spacing: .12em; font-weight: 500; }
 .primary-nav { display: flex; align-items: center; gap: clamp(18px, 3vw, 46px); }
 .primary-nav a { text-decoration: none; font-size: 12px; letter-spacing: .02em; color: var(--ink-soft); transition: color .2s ease; }
@@ -39,7 +39,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .hero { min-height: min(780px, calc(100svh - 76px)); padding: clamp(70px, 11vh, 122px) var(--gutter) 44px; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 30px; position: relative; overflow: hidden; }
 .hero-copy { width: min(100%, 1070px); margin: 0 auto; }
 .hero-kicker { display: flex; align-items: center; gap: 12px; margin-bottom: clamp(25px, 5vh, 50px); color: var(--ink-soft); font-size: 12px; letter-spacing: .025em; }
-.hero-kicker img { width: 31px; height: 31px; }
+.hero-kicker img { width: 36px; height: 31px; object-fit: contain; flex: 0 0 auto; }
 .hero-acronym { margin-left: 6px; color: var(--gold); font-size: 10px; letter-spacing: .12em; }
 .hero h1 { margin: 0; max-width: 1000px; font-family: var(--serif); font-size: clamp(66px, 11.2vw, 154px); line-height: .91; letter-spacing: -.065em; font-weight: 400; }
 .hero h1 em, h2 em { color: var(--green); font-weight: 400; }
@@ -188,7 +188,7 @@ h2 { margin: 0; font-family: var(--serif); font-size: clamp(46px, 6vw, 82px); fo
 @media (max-width: 680px) {
   html { scroll-padding-top: 72px; }
   .site-header { height: 66px; }
-  .wordmark img { width: 34px; height: 34px; }
+  .wordmark img { width: 42px; height: 36px; }
   .menu-toggle { display: block; }
   .primary-nav { display: none; position: absolute; top: 65px; left: 0; right: 0; padding: 14px var(--gutter) 24px; flex-direction: column; align-items: stretch; gap: 0; background: var(--paper); border-bottom: 1px solid var(--line); }
   .primary-nav.is-open { display: flex; }
