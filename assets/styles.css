@@ -149,6 +149,9 @@ h2 { margin: 0; font-family: var(--serif); font-size: clamp(46px, 6vw, 82px); fo
 .flag-figure { margin: 0; }
 .flag-figure img { width: 100%; }
 .flag-figure figcaption { margin-top: 12px; color: var(--ink-soft); font-size: 11px; }
+.identity-logo-figure { display: flex; flex-direction: column; align-items: center; margin: 0; }
+.identity-logo-figure img { width: min(100%, 360px); height: auto; object-fit: contain; }
+.identity-logo-figure figcaption { margin-top: 12px; color: var(--ink-soft); font-size: 11px; text-align: center; }
 .values-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 90px; padding-top: 24px; border-top: 1px solid var(--line); }
 .values-row > div { max-width: 310px; }
 .values-row span { color: var(--gold); font-size: 11px; }
